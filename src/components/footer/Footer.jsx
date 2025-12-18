@@ -1,9 +1,14 @@
 // export default function Footer() {}
+import Navbar from "../navbar/Navbar";
 import styles from "./Footer.module.css";
 
-
 const Footer = () => {
-  return <div className={styles.footer}>this is footer!</div>;
+  return (
+    <footer className={styles.footer}>
+      this is footer!
+      <Navbar />
+    </footer>
+  );
 };
 
 export default Footer;
