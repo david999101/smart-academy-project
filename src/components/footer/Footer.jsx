@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       this is footer!
-      <Navbar />
     </footer>
   );
 };
