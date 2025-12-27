@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import styles from "@/app/page.module.css";
 import Button from "../button/Button";
 
+//initialize function
 const Text = () => {
   const [number, setNumber] = useState(10);
   const [input, setInput] = useState("");
